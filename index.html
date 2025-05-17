@@ -10,17 +10,31 @@
             background-color: #f9f9f9;
             color: #333;
         }
+        .container {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+        }
+
         header {
-            border-bottom: 2px solid #ddd;
-            padding-bottom: 10px;
+            flex: 1;
+        }
+
+        .photo {
+            margin-left: 30px;
         }
         h1 {
             margin-bottom: 5px;
         }
         nav a {
-            margin-right: 15px;
+            display: inline-block;
+            margin-right: 10px;
+            color: #0066cc;
             text-decoration: none;
-            color: #007BFF;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
         }
         section {
             margin-top: 30px;
