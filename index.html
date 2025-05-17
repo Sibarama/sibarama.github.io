@@ -33,6 +33,19 @@
             font-size: 0.9em;
             color: #666;
         }
+        table {
+            border-collapse: collapse; /* Removes double borders */
+            width: 60%;
+            margin: 20px;
+        }
+        th, td {
+            border: 1px solid black; /* Adds border to cells */
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
     </style>
 </head>
 <body>
@@ -73,12 +86,6 @@
 <section id="Sponsored_Projects">
     <h2>Sponsored Projects</h2>
     <table>
-        <style>
-        table {
-            border-collapse: collapse; /* Removes double borders */
-            width: 60%;
-            margin: 20px;
-        }
     <tr>
         <th>Project Title</th>
         <th>Funding Agency</th>
