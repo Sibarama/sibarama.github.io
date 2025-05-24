@@ -113,21 +113,13 @@ export default function StudentsPage() {
                 <Avatar className="h-20 w-20 mx-auto mb-4 bg-purple-100">
                   <AvatarFallback className="text-purple-600 text-xl">DAX</AvatarFallback>
                 </Avatar>
-                <h3 className="font-medium mb-1">Dr. Alumnus X</h3>
-                <p className="text-sm text-gray-600 mb-2">Graduated 2020</p>
-                <p className="text-sm font-medium mb-1">Thesis: Advanced Time Series Models</p>
-                <p className="text-sm text-purple-600">Current: Data Scientist, Major Tech Co.</p>
+                <h3 className="font-medium mb-1">Dr. Sushree Subhaprada Pradhan</h3>
+                <p className="text-sm text-gray-600 mb-2">Graduated: November 2024</p>
+                <p className="text-sm font-medium mb-1">Thesis: Forecasting Air Quality Index using Machine Learning Techniques</p>
+                <p className="text-sm text-purple-600">Current: Assistant Professor, Department of Computer Science and Engineering, Sambalpur University Institute of Information Technology</p>
               </div>
 
-              <div className="card text-center">
-                <Avatar className="h-20 w-20 mx-auto mb-4 bg-blue-100">
-                  <AvatarFallback className="text-blue-600 text-xl">DAY</AvatarFallback>
-                </Avatar>
-                <h3 className="font-medium mb-1">Dr. Alumna Y</h3>
-                <p className="text-sm text-gray-600 mb-2">Graduated 2019</p>
-                <p className="text-sm font-medium mb-1">Thesis: ML in Computational Biology</p>
-                <p className="text-sm text-purple-600">Current: Postdoc Researcher, Intl. University</p>
-              </div>
+              
             </div>
             <p className="text-center text-gray-600 mt-8">Showcasing a few accomplished alumni.</p>
           </TabsContent>
