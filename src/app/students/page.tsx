@@ -29,10 +29,10 @@ export default function StudentsPage() {
                 <Avatar className="h-20 w-20 mx-auto mb-4 bg-purple-100">
                   <AvatarFallback className="text-purple-600 text-xl">SA</AvatarFallback>
                 </Avatar>
-                <h3 className="font-medium mb-1">Student A</h3>
+                <h3 className="font-medium mb-1">Sourav Kumar Purohit</h3>
                 <p className="text-sm text-gray-600 mb-2">Research Scholar (Since 2022)</p>
-                <p className="text-sm text-purple-600 mb-2">student.a@nitrkl.ac.in</p>
-                <p className="text-sm font-medium">Research: Deep Learning for Time Series</p>
+                <p className="text-sm text-purple-600 mb-2">sk27808@gmail.com</p>
+                <p className="text-sm font-medium">Research: Crude Oil Price Forecasting using Machine Learning Techniques</p>
               </div>
 
               <div className="card text-center">
